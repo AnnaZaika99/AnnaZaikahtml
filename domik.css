@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.house, .house_wall{
+    position: relative;
+}
+
+.house_wall{
+    height: 500px;
+    width: 500px;
+    border: 1px solid #000;
+}
+
+.house_roof{
+    width: 0;
+    height: 0;
+    border-left: 251px solid transparent;
+    border-right: 251px solid transparent;
+    border-bottom: 301px solid navy;
+}
+
+.wall_window_green, .wall_window_red{
+    width: 75px;
+    height: 75px;
+    border: 10px solid bisque;
+    position: relative;
+}
+
+.wall_window_green{
+    background: greenyellow;
+    left: 25px;
+    top: 100px;
+}
+
+.wall_window_red{
+    background: tomato;
+    left: 350px;
+}
+
+.wall_door{
+    width: 110px;
+    height: 210px;
+    border: 1px solid #000;
+    position: relative;
+    top: 99px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: aqua;
+}
+
+.door_handle{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    position: relative;
+    border-radius: 5px;
+    top: 100px;
+    left: 85px;
+    background: black;
+}
+
+.house2, .house_wall2{
+    position: absolute;
+}
+
+.house_wall2{
+    height: 500px;
+    width: 500px;
+    border: 1px solid #000;
+}
+
+.house_roof2{
+    width: 0;
+    height: 0;
+    border-left: 251px solid transparent;
+    border-right: 251px solid transparent;
+    border-bottom: 301px solid navy;
+}
+
+.wall_window_green2, .wall_window_red2{
+    width: 75px;
+    height: 75px;
+    border: 10px solid bisque;
+    position: absolute;
+    top: 100px;
+}
+
+.wall_window_green2{
+    background:greenyellow;
+    left: 30px;
+}
+
+.wall_window_red2{
+    background: tomato;
+    right: 30px;
+}
+
+.wall_door2{
+    width: 110px;
+    height: 210px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 289px;
+    overflow: auto;
+    right: 200px;
+    background: aqua;
+}
+
+.door_handle2{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    position: absolute;
+    border-radius: 5px;
+    top: 100px;
+    left: 85px;
+    background: black;
+}
+
+.house3, .house_wall3{
+    position: fixed;
+}
+
+.house_wall3{
+    height: 500px;
+    width: 500px;
+    border: 1px solid #000;
+    padding: 0px;
+    top:301px;
+    left: 600px;
+}
+
+.house_roof3{
+    position: fixed;
+    left: 600px;
+    width: 0;
+    height: 0;
+    border-left: 251px solid transparent;
+    border-right: 251px solid transparent;
+    border-bottom: 301px solid navy;
+    top: 0px;
+}
+
+.wall_window_green3, .wall_window_red3{
+    width: 75px;
+    height: 75px;
+    border: 10px solid bisque;
+    top: 400px;
+    position: fixed;
+}
+
+.wall_window_green3{
+    background: greenyellow;
+    right: 4300px;
+}
+
+.wall_window_red3{
+    background: tomato;
+    right: 4010px;
+}
+
+.wall_door3{
+    width: 110px;
+    height: 210px;
+    border: 1px solid #000;
+    position: fixed;
+    top: 590px;
+    overflow: auto;
+    right: 4150px;
+    background: aqua;
+}
+
+.door_handle3{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    position: fixed;
+    border-radius: 5px;
+    top: 690px;
+    right: 4165px;
+    background: black;
+}
+
+.house4 {
+    position: static;
+     margin-top: 900px;
+     
+    
+}
+
+.house_wall4{
+    position: static;
+    height: 400px;
+    width: 500px;
+    border: 1px solid #000;
+    position: static;
+    padding: 0px;
+    padding-top: 100px;
+}
+
+.house_roof4{
+    position: static;
+    left: 600px;
+    width: 0;
+    height: 0;
+    border-left: 251px solid transparent;
+    border-right: 251px solid transparent;
+    border-bottom: 301px solid navy;
+    
+}
+
+.wall_window_green4, .wall_window_red4{
+    width: 75px;
+    height: 75px;
+    border: 10px solid bisque;
+    position: static;
+    top: 400px;
+    float: left;
+    margin-bottom: 94px;
+}
+
+.wall_window_green4{
+    background: greenyellow;
+    right: 600px;
+    margin-left: 60px;
+}
+
+.wall_window_red4{
+    background: tomato;
+    right: 300px;
+    margin-left: 190px;
+}
+
+.wall_door4{
+    width: 110px;
+    height: 210px;
+    border: 1px solid #000;
+    position: static;
+    overflow: auto;
+    background: aqua;
+    clear: both;
+    margin-left: 190px;
+    
+}
+
+.door_handle4{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    position: static;
+    border-radius: 5px;
+    background: black;
+    margin-left: 90px;
+    margin-top: 100px;
+}
